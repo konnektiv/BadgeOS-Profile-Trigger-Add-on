@@ -2,10 +2,11 @@
 /**
  * Plugin Name: BadgeOS Profile Trigger Add-On
  * Plugin URI: http://www.konnektiv.de/
- * Description: This BadgeOS add-on adds a trigger for viewing other users profiles
+ * Description: This BadgeOS add-on adds triggers for viewing other users
+ * profiles and entering extended profile information
  * Tags: buddypress
  * Author: konnektiv
- * Version: 0.0.1
+ * Version: 0.0.2
  * Author URI: https://konnektiv.de/
  * License: GNU AGPL
  * Text Domain: badgeos-profile-trigger
