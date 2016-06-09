@@ -124,8 +124,8 @@ class BadgeOS_Profile_Trigger_Rules {
     }
 
 	function badgeos_triggers($triggers) {
-		$triggers['visit_others_profile'] = __('Visit another users profile page', 'badgeos-profile-trigger');
-        $triggers['bp_profile_completed'] = __('The user has completed their profile', 'badgeos-profile-trigger');
+		$triggers['visit_others_profile'] = __('Visit another users profile page', 'profile-trigger-add-on-for-badgeos');
+        $triggers['bp_profile_completed'] = __('The user has completed their profile', 'profile-trigger-add-on-for-badgeos');
 		return $triggers;
 	}
 

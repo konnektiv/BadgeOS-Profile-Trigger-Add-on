@@ -1,15 +1,15 @@
 <?php
 /**
  * Plugin Name: BadgeOS Profile Trigger Add-On
- * Plugin URI: http://www.konnektiv.de/
+ * Plugin URI: https://wordpress.org/plugins/profile-trigger-add-on-for-badgeos/
  * Description: This BadgeOS add-on adds triggers for viewing other users
  * profiles and entering extended profile information
- * Tags: buddypress
+ * Tags: badgeos, buddypress
  * Author: konnektiv
  * Version: 1.0.0
  * Author URI: https://konnektiv.de/
  * License: GNU AGPL
- * Text Domain: badgeos-profile-trigger
+ * Text Domain: profile-trigger-add-on-for-badgeos
  */
 
 /*
@@ -38,7 +38,7 @@ class BadgeOS_Profile_Trigger {
 		$this->directory_url  = plugin_dir_url(  __FILE__ );
 
 		// Load translations
-		load_plugin_textdomain( 'badgeos-profile-trigger', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+		load_plugin_textdomain( 'profile-trigger-add-on-for-badgeos', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 
 		// Run our activation
 		register_activation_hook( __FILE__, array( $this, 'activate' ) );
@@ -108,7 +108,7 @@ class BadgeOS_Profile_Trigger {
 		if ( ! $this->meets_requirements() ) {
 			// Display our error
 			echo '<div id="message" class="error">';
-			echo '<p>' . sprintf( __( 'BadgeOS Profile Trigger Add-On requires BadgeOS 1.4.0 or greater and has been <a href="%s">deactivated</a>. Please install and activate BadgeOS and then reactivate this plugin.', 'badgeos-timelimit' ), admin_url( 'plugins.php' ) ) . '</p>';
+			echo '<p>' . sprintf( __( 'BadgeOS Profile Trigger Add-On requires BadgeOS 1.4.0 or greater and has been <a href="%s">deactivated</a>. Please install and activate BadgeOS and then reactivate this plugin.', 'profile-trigger-add-on-for-badgeos' ), admin_url( 'plugins.php' ) ) . '</p>';
 			echo '</div>';
 
 			// Deactivate our plugin
