@@ -20,7 +20,7 @@ This BadgeOS Add-on adds triggers for the following user profile related events:
 
 [Get the BadgeOS plugin](http://wordpress.org/extend/plugins/badgeos/ "BadgeOS").
 
-[This plugin was originally developed for the [globe - Community of Digital Learning](https://quality4digitallearning.org/) on behalf of [GIZ](https://www.giz.de/).
+This plugin was originally developed for the [globe - Community of Digital Learning](https://quality4digitallearning.org/) on behalf of [GIZ](https://www.giz.de/).
 
 = Contact =
 
