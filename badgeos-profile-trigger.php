@@ -2,8 +2,7 @@
 /**
  * Plugin Name: BadgeOS Profile Trigger Add-On
  * Plugin URI: https://wordpress.org/plugins/profile-trigger-add-on-for-badgeos/
- * Description: This BadgeOS add-on adds triggers for viewing other users
- * profiles and entering extended profile information
+ * Description: BadgeOS Add-on which adds triggers for various user profile related events.
  * Tags: badgeos, buddypress
  * Author: konnektiv
  * Version: 1.0.0
