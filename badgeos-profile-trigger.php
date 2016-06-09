@@ -12,7 +12,7 @@
  */
 
 /*
- * Copyright © 2012-2013 LearningTimes, LLC
+ * Copyright © 2016 Konnektiv
  *
  * This program is free software: you can redistribute it and/or modify it
  * under the terms of the GNU Affero General Public License, version 3,
