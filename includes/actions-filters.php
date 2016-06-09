@@ -83,6 +83,10 @@ class BadgeOS_Profile_Trigger_Rules {
     }
 
     public function maybe_trigger_profile_complete($profile_data) {
+
+        if (bp_displayed_user_id() != bp_loggedin_user_id())
+            return;
+
         $groups = bp_xprofile_get_groups(array(
             'hide_empty_groups'  => true,
             'hide_empty_fields'  => false,
