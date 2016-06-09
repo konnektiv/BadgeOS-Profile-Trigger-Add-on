@@ -1,6 +1,6 @@
 <?php
 /**
- * Version: 0.0.1
+ * Version: 1.0.0
  * Author: Konnektiv
  * Author URI: http://konnektiv.de/
  */
@@ -21,7 +21,7 @@ class BadgeOS_Profile_Trigger_Rules {
 	 * Insures that only one instance of BadgeOS_Profile_Trigger_Rules exists in memory at
 	 * any one time. Also prevents needing to define globals all over the place.
 	 *
-	 * @since BadgeOS_Profile_Trigger_Rules (0.0.1)
+	 * @since BadgeOS_Profile_Trigger_Rules (1.0.0)
 	 *
 	 * @staticvar array $instance
 	 *
@@ -40,7 +40,7 @@ class BadgeOS_Profile_Trigger_Rules {
 	/**
 	 * A dummy constructor to prevent loading more than one instance
 	 *
-	 * @since BadgeOS_Profile_Trigger_Rules (0.0.1)
+	 * @since BadgeOS_Profile_Trigger_Rules (1.0.0)
 	 */
 	private function __construct() { /* Do nothing here */
 	}
@@ -49,7 +49,7 @@ class BadgeOS_Profile_Trigger_Rules {
 	/**
 	 * Setup the filters
 	 *
-	 * @since BadgeOS_Profile_Trigger_Rules (0.0.1)
+	 * @since BadgeOS_Profile_Trigger_Rules (1.0.0)
 	 * @access private
 	 *
 	 * @uses remove_filter() To remove various filters
@@ -62,7 +62,7 @@ class BadgeOS_Profile_Trigger_Rules {
 	/**
 	 * Setup the actions
 	 *
-	 * @since BadgeOS_Profile_Trigger_Rules (0.0.1)
+	 * @since BadgeOS_Profile_Trigger_Rules (1.0.0)
 	 * @access private
 	 *
 	 * @uses remove_action() To remove various actions

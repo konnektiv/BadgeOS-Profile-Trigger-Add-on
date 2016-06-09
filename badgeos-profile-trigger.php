@@ -6,7 +6,7 @@
  * profiles and entering extended profile information
  * Tags: buddypress
  * Author: konnektiv
- * Version: 0.0.2
+ * Version: 1.0.0
  * Author URI: https://konnektiv.de/
  * License: GNU AGPL
  * Text Domain: badgeos-profile-trigger
@@ -53,7 +53,7 @@ class BadgeOS_Profile_Trigger {
 	/**
 	 * Files to include for BadgeOS integration.
 	 *
-	 * @since  1.1.1
+	 * @since  1.0.0
 	 */
 	public function includes() {
 		if ( $this->meets_requirements() ) {
@@ -86,7 +86,7 @@ class BadgeOS_Profile_Trigger {
 	/**
 	 * Check if BadgeOS is available
 	 *
-	 * @since  0.0.1
+	 * @since  1.0.0
 	 * @return bool True if BadgeOS is available, false otherwise
 	 */
 	public static function meets_requirements() {
@@ -117,4 +117,4 @@ class BadgeOS_Profile_Trigger {
 	}
 
 }
-$GLOBALS['badgeos_profile_trigger'] = new BadgeOS_Profile_Trigger();
+new BadgeOS_Profile_Trigger();
