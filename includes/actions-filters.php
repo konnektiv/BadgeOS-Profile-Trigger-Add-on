@@ -153,7 +153,10 @@ class BadgeOS_Profile_Trigger_Rules {
 
             // check if gravatar exists
             if (!$no_grav) {
-                $headers = get_headers((is_ssl()?'https:':'http:') . $avatar);
+                if ( strpos( $avatar, 'http' ) !== 0 ) {
+                    $avatar = ( is_ssl() ? 'https:' : 'http:' ) . $avatar;
+                }
+                $headers = get_headers($avatar);
                 if (substr($headers[0], 9, 3) === "404")
                     $avatar = null;
             }
